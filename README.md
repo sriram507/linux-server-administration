@@ -1,41 +1,77 @@
 # Linux Server Administration & Web Hosting
 
-## Project Overview
-This project demonstrates Linux server administration and web hosting using Ubuntu, Nginx, and Node.js. It simulates a production environment using reverse proxy configuration.
+## Overview
+
+This project demonstrates the setup and administration of a Linux-based web hosting environment using Ubuntu, Nginx, and Node.js. The objective was to understand how web applications are hosted on Linux servers and how Nginx can be configured as a reverse proxy in a production-style architecture.
+
+## Objectives
+
+* Learn Linux server administration fundamentals.
+* Deploy a Node.js application on Ubuntu.
+* Configure Nginx as a reverse proxy.
+* Understand web hosting architecture and service management.
 
 ## Technologies Used
-- Ubuntu (WSL)
-- Node.js
-- Express.js
-- Nginx
-- Linux Commands
 
-## Architecture
+* Ubuntu (WSL)
+* Linux Command Line
+* Node.js
+* Express.js
+* Nginx
+* Git
+
+## Project Architecture
+
 Browser → Nginx (Port 80) → Node.js Application (Port 3000)
 
 ## Features
-- Linux server setup and management
-- Node.js application deployment
-- Nginx reverse proxy configuration
-- Web server hosting simulation
 
-## How to Run
-1. Start Node.js server:
-   node server.js
+* Linux environment setup and configuration
+* Node.js application deployment
+* Nginx reverse proxy configuration
+* Service management and monitoring
+* Basic web hosting simulation
 
-2. Start Nginx:
-   sudo service nginx start
+## Setup Instructions
 
-3. Open browser:
-   http://localhost
+### Clone Repository
 
-## Learning Outcome
-- Linux server administration basics
-- Web hosting concepts
-- Reverse proxy setup
-- Real-world deployment workflow
+git clone <repository-url>
 
+### Install Dependencies
 
-=======
-# linux-server-administration
->>>>>>> 05728bbf9ce413c304cdadd78aa8ebc9441d8805
+npm install
+
+### Run Application
+
+node server.js
+
+### Start Nginx
+
+sudo service nginx start
+
+### Verify
+
+Open:
+
+http://localhost
+
+## Learning Outcomes
+
+* Linux file system navigation
+* User and permission management
+* Process and service management
+* Nginx configuration basics
+* Reverse proxy concepts
+* Web application hosting fundamentals
+
+## Future Improvements
+
+* SSL/TLS configuration
+* Domain name integration
+* Monitoring and logging setup
+* Docker-based deployment
+
+## Author
+
+Injarapu Sriram
